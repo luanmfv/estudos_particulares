@@ -1,3 +1,5 @@
+import pytest
+
 def my_function(x: int) -> int:
     if not isinstance(x, int):
         raise ValueError("x must be of int type")
