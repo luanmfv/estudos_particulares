@@ -47,6 +47,10 @@ Entender SQL básico: SELECT, INSERT, UPDATE, DELETE.
 
 (SQL e NoSQL)  (PostgreSQL, MySQL)
 
+(priorize PostgreSQL).
+
+MongoDB (NoSQL) para ficar completo e atrativo pro mercado.
+
 
 
 -------------------------------------------------------------------------------
