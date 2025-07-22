@@ -2,7 +2,7 @@
 
 Ferramenta pronta para construir estruturas como
 
-- Djano e FastAPI - para APIs e sites com python
+- Django e FastAPI - para APIs e sites com python
 
 - React - para interfaces web
 
