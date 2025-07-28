@@ -4,7 +4,7 @@
 
 - Extensões, trabalhar com outros tipos de dados e linguagem, como python
 
-- SGBD (Sistema de gerenciamento de banco de dados), postgresql é um dos 4 maior, dentre eles existem oracle, mysql e sql server
+- SGBD (Sistema de gerenciamento de banco de dados), postgresql é um dos 4 maiores, dentre eles existem oracle, mysql e sql server
 
 comandos
 
