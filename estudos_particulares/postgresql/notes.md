@@ -180,14 +180,41 @@ para ser variavel em caracteres, até 100 carac
 
 
 -----------------------------------------------------------------------------------------------
-
-
-
 CREATE TABLE categorias (
-	id SERIAL PRIMARY KEY,
-	nome VARCHAR()
+	ID SERIAL PRIMARY KEY,
+	nome VARCHAR(100),
 	tags TEXT[]
+	
 );
+
+INSERT INTO categorias(nome, tags)
+VALUES
+('Eletrônicos', ARRAY['tecnologia', 'gadgets'])
+
+#ARRAY PARECE SER O COMANDO PARA COLOCAR AS COISAS NA LISTA TEXT[]
+
+
+
+
+-----------------------------------------------------------------------------------------------
+create index idx_none on usuarios (nome);
+
+criar um index na table usuarios em nome
+
+
+
+para analisar a consulta digite
+
+explain analyze select * from usuarios where nome = 'João';
+
+-----------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
 
 
 
