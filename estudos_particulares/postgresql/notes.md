@@ -86,4 +86,122 @@ VALUES
 
 
 
+-----------------------------------------------------------------------------------------------
+
+
+UPDATE usuarios SET idade = 50 WHERE nome = 'João'
+
+alterei a idade do joão para 50
+
+
+
+-----------------------------------------------------------------------------------------------
+
+DELETE FROM usuario WHERE nome = 'João';
+
+deletei a coluna João
+
+-----------------------------------------------------------------------------------------------
+
+CREATE TABLE pedidos (
+	id SERIAL PRIMARY KEY,                               #id serial primary key é para o que for criado ter o id 1, 2, 3 etc
+	usuario_id INT REFERENCES usuarios(id),              #para que vincule os usuarios da table usuarios com a mesma de pedidos
+	valor DECIMAL(10,2),
+	data_pedido TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+criei a table pedidos
+
+
+
+-----------------------------------------------------------------------------------------------
+
+
+INSERT INTO pedidos(usuario_id, valor)
+VALUES
+(4, 10.00)
+
+
+coloquei o valor 10 ao usuario 4 
+
+
+-----------------------------------------------------------------------------------------------
+
+SELECT u.nome, p.valor
+FROM usuarios u
+JOIN pedidos p ON u.id = p.usuario_id;
+
+
+
+isso é para juntar pedidos com p, u.id recebe pedidos usuarios id então junta
+
+usuario.nome, pedidos.valor
+
+u.nome #nome, da tabela usuarios
+
+p.valor # o valor, da tabela pedidos
+
+FROM usuarios u #trazer como base usuarios
+
+-----------------------------------------------------------------------------------------------
+
+SELECT AVG(idade) AS idade_media FROM usuarios;
+
+para pegar a media de idade dos usuarios
+
+-----------------------------------------------------------------------------------------------
+
+
+CREATE TABLE produtos(
+	id SERIAL PRIMARY KEY,
+	dados JSONB
+);
+
+INSERT INTO produtos (dados)
+VALUES
+('{"nome": "Celular", "preco":3000}');
+
+
+inseri a tabela produtos e nela o nome, que recebe celular e o preço que recebe 3000, tudo no mesmo id
+
+-----------------------------------------------------------------------------------------------
+
+
+
+
+SELECT dados->>'nome' AS nome_produto FROM produtos;
+
+para trazer apenas o nome do produto
+
+-----------------------------------------------------------------------------------------------
+nome VARCHAR(100)
+
+para ser variavel em caracteres, até 100 carac
+
+
+-----------------------------------------------------------------------------------------------
+
+
+
+CREATE TABLE categorias (
+	id SERIAL PRIMARY KEY,
+	nome VARCHAR()
+	tags TEXT[]
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
