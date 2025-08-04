@@ -96,4 +96,79 @@ values
 
 
 -------------------------------------------------------------
+(apos deletar tudo criei novamente dessa forma)
+
+
+create table produto(
+id_produto int not null auto_increment,       #not null para ser obrigatorio digitar algo
+nome varchar(30) not null,                    #auto_increment para colocar o id automaticamente  e primary key para dar prioridade a essa chave
+preco double not null,
+descrica text not null,
+primary key(id_produto)
+);
+
+----------------------------------------------------------------------------------
+
+o ponto e vírgula (;) é utilizado para todo final de código, então sem ele voce consegue executar um código só, mas se for mais de um precisa por ; no final de cada codigo
+
+-------------------------------------------------------------
+
+select * from produto where id_produto = '1';
+
+para consultar somente o id 1 da tabela
+
+
+select * from produto where id_produto = '1' and nome = 'RTX 5080';  (para pegar por id e nome)
+
+-----------------------------------------------------------------
+
+update produto set nome = 'HD 1T' where id_produto = '5';
+
+para atualizar o nome para hd 1t no id 5
+
+-----------------------------------------------------------------
+
+
+
+deletar a tabela 5 
+
+delete from produto where id_produto = '5';
+
+
+
+alter table produto
+add column codigo int not null;      adicionou a coluna codigo
+
+
+---------------------------------------------------
+
+
+update produto set codigo = '500' where id_produto = '1';
+
+
+
+para excluir uma coluna é 
+
+alter table produto
+drop column descrica;
+
+tenha sempre um backup do seu banco de dados!!!
+
+comando truncate produto;
+
+exclui tudo o que estiver dentro da tabela produto
+
+drop table produto;  exclui a tabela produto
+
+drop database stackmobile;  exclui o banco de dados stackmobile que é o nome do seu banco
+
+
+
+
+
+
+
+
+
+
 
