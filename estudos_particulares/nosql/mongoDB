@@ -1,0 +1,57 @@
+NoSQL (Not Only SQL) é um tipo de banco de dados que não usa exclusivamente o modelo relacional tradicional (tabelas) e é projetado para trabalhar com grandes volumes de dados não estruturados ou semiestruturados.
+
+Características principais:
+Não usa SQL como linguagem principal (ou usa parcialmente).
+
+Não tem esquema fixo (schema-less).
+
+Alta escalabilidade (ideal para sistemas distribuídos).
+
+Suporta diferentes tipos de dados: documentos, chave-valor, grafos, colunas.
+
+Tipos comuns de NoSQL:
+Documentos (ex: MongoDB) → usa JSON ou BSON.
+
+Chave-valor (ex: Redis) → simples par chave e valor.
+
+Colunar (ex: Cassandra) → colunas ao invés de linhas.
+
+Grafos (ex: Neo4j) → ideal para redes e conexões.
+
+Quando usar NoSQL?
+Dados não estruturados ou com estrutura variável.
+
+Escalabilidade horizontal (muitos servidores).
+
+Aplicações em tempo real, Big Data, redes sociais, etc.
+
+----------------------------------------------------------------------------------
+
+no mongo shell voce usou o comando
+
+db.createCollection("collection")
+
+para criar um database por lá
+
+para limpar a tela do cmd é cls
+
+------------------------------------------------------------------------
+
+se o mongosh não for direto no cmd adicione ele ao path em variaveis do ambiente do sistema
+
+-------------------------------------------------------------------------
+
+comando
+
+show collections   para ver as coleções dentro do seu database selecionado
+
+
+
+para deletar uma collection
+
+db.testeteste.drop()
+
+db.dropDatabase()   para excluir o banco de dados que esta em use
+
+
+
