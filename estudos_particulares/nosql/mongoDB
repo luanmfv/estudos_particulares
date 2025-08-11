@@ -153,6 +153,23 @@ db.users.find({name:"louroan"}).collation({locale:"pt",strength:2});
 consulta com caracteres especiais
 
 
+{$and:[{level:{$gte:0}},{game:"Sword Art Online"}]}
+
+$gte
+
+seleciona do nivel x e adiante
+
+
+$and
+
+para duas funções na mesmo busca
+
+
+site manual do mongodb
+
+https://www.mongodb.com/pt-br/docs/manual/reference/operator/query/
+
+
 
 
 
