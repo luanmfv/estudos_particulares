@@ -124,5 +124,36 @@ se usar
 
 ele tras tudo menos essas duas colunas
 
+em sort,
+
+ordenar em ordem descrescente {name:-1 }  e crescente {name:1 }
+
+
+
+em collation,
+
+{locale:"pt",strength:2}
+
+ignora caracteres especiais e letras maiusculas
+
+atlas configura pelo site  uma ia para busca
+
+
+----------------------------------------------------------
+
+no shell
+
+db.users.find({name:"Louroan"});
+
+para pesquisa ele mostra a coluna inteira
+
+
+db.users.find({name:"louroan"}).collation({locale:"pt",strength:2});
+
+consulta com caracteres especiais
+
+
+
+
 
 
