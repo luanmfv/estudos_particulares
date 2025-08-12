@@ -173,10 +173,35 @@ https://www.mongodb.com/pt-br/docs/manual/reference/operator/query/
 
 
 
+ db.users.find({name:"Louroan"});
+[
+  {
+    _id: ObjectId('68950e962facd248ab12d6cd'),
+    name: 'Louroan',
+    email: 'loroanlol@gmail.com',
+    password: '@Aguamineral50',
+    avatar: 'Warrior',
+    game: 'Sword Art Online',
+    highscore: 0,
+    money: 0.01,
+    hp: 500,
+    xp: 0,
+    level: 0
+  }
+]
 
 
+----------------------------------------------------------------------------
 
 
+db.users.updateOne({name:"Louroan"},{$set:{highscore:600}});
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,                        <==== retorno do cmd
+  upsertedCount: 0
+}
 
 
 
