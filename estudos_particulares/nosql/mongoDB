@@ -234,3 +234,27 @@ criou a variavel para armazenar o id
 db.users.updateOne({_id:id},{$set:{hp:200}});
 
 deu update na variavel id que foi criada
+
+
+----------------------------------------------------------------------------
+
+Para deletar algo
+
+db.users.deleteOne({name:"Louroan"});
+
+ele retorna true
+
+
+GameControll> var id = ObjectId("68950e962facd248ab12d6cd");
+
+GameControll> db.users.deleteOne({_id:id});
+
+acima, caso queira deletar tudo de uma id você transforma o id em uma variavel id e depois deleta ela
+
+
+----------------------------------------------------------------------------
+
+
+
+
+
