@@ -254,6 +254,12 @@ acima, caso queira deletar tudo de uma id você transforma o id em uma variavel 
 
 ----------------------------------------------------------------------------
 
+fiz uma configuração ao baixar o mongodbtools para quando abrir o cmd ja estar implementado
+
+criando a pasta tools dentro de mongo db e colocando a bin
+
+apos isso variaveis de ambiente e colocar o path de bin
+
 
 
 
