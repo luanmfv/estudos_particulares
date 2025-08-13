@@ -261,6 +261,21 @@ criando a pasta tools dentro de mongo db e colocando a bin
 apos isso variaveis de ambiente e colocar o path de bin
 
 
+----------------------------------------------------------------------------
+Mongodump
+
+abrir no cmd digitando mongodump
+
+para fazer backup pelo dump digite no cmd
+
+mongodump --db=GameControll --out=c:\curso
+
+--db=nomedoquequerfazerbacukp --out=diretorio (cria a pasta com o nome caso ainda não haja)
+
+
+
+
+
 
 
 
