@@ -203,5 +203,34 @@ db.users.updateOne({name:"Louroan"},{$set:{highscore:600}});
   upsertedCount: 0
 }
 
+----------------------------------------------------------------------------
+
+db.users.updateMany({game:"Sword Art Online"},{$set:{highscore:100, hp:100, money:100, xp:1000}});
 
 
+
+você deu update nas informações de todos os que estavam dentro do game citado
+
+
+
+para consultar todos os documentos 
+
+db.users.find({});
+
+
+
+adicionei uma nova coluna em todos
+
+ db.users.updateMany({},{$set:{item1:"Black Sword"}});
+
+
+
+var id = ObjectId("68950e962facd248ab12d6cd");
+
+
+criou a variavel para armazenar o id
+
+
+db.users.updateOne({_id:id},{$set:{hp:200}});
+
+deu update na variavel id que foi criada
