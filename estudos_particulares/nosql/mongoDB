@@ -262,7 +262,7 @@ apos isso variaveis de ambiente e colocar o path de bin
 
 
 ----------------------------------------------------------------------------
-Mongodump
+Mongodump - para fazer backup de dados
 
 abrir no cmd digitando mongodump
 
@@ -272,6 +272,31 @@ mongodump --db=GameControll --out=c:\curso
 
 --db=nomedoquequerfazerbacukp --out=diretorio (cria a pasta com o nome caso ainda não haja)
 
+
+o comando ficou  
+
+mongodump --db=GameControll --out=C:\Users\Luan\Desktop\Main\dev
+
+
+no comando abaixo eu especificio qual collection eu quero fazer backup em especifico
+
+mongodump --db=GameControll --collection=users --out=C:\Users\Luan\Desktop\Main\dev
+
+
+o comando exclude para fazer backup de tudo menos da mencionada
+
+mongodump --db=GameControll --excludeCollection=users --out=C:\Users\Luan\Desktop\Main\dev
+
+
+para restaurar todo o banco de dados
+
+selecione o diretorio de onde esta ele no comando
+
+
+mongorestore --db=GameControll C:\Users\Luan\Desktop\Main\dev\GameControll
+
+
+-----------------------------------------------------------------------------------------------
 
 
 
