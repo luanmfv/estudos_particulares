@@ -248,6 +248,138 @@ Resposta (saída): o texto que o modelo deve gerar ao receber aquele prompt.
 
 ---------------------------------------------------------------------------------------------------------------------
 
+Amazon Textract é um serviço da AWS especializado em extrair texto e dados de documentos, incluindo:
+
+Faturas, recibos, contratos, formulários.
+
+Suporta texto digitado e manuscrito.
+
+Funciona com documentos em imagens (PNG, JPEG) ou PDFs.
+
+Ele vai além do OCR tradicional porque também consegue identificar tabelas, campos de formulário e relacionamentos entre dados.
+
+---------------------------------------------------------------------------------------------------------------------
+
+Sobreajuste ocorre quando um modelo aprende demais os detalhes e ruídos dos dados de treinamento, ao ponto de:
+
+Ter alta acurácia nos dados de treinamento.
+
+Ter baixa acurácia em dados novos ou de teste, porque não generaliza bem.
+
+É um problema comum em modelos muito complexos ou quando há poucos dados de treinamento.
+
+O sobreajuste ocorre quando um modelo aprende com os dados de treinamento e não consegue ter um bom desempenho quando recebe novos dados. Esse fator explica por que o modelo tem alta acurácia nos dados de treinamento e baixa acurácia nos dados de teste.
+
+---------------------------------------------------------------------------------------------------------------------
+
+LLM significa Large Language Model (Modelo de Linguagem de Grande Escala).
+
+É um modelo de inteligência artificial treinado para entender e gerar texto em linguagem natural.
+
+Características principais:
+
+Treinado em grandes volumes de dados textuais
+
+Pode ser textos da internet, livros, artigos, códigos, etc.
+
+Gera respostas coerentes e contextualizadas
+
+Pode escrever textos, resumir conteúdos, responder perguntas, traduzir idiomas, criar diálogos e até gerar código.
+
+Capaz de generalizar
+
+Mesmo sem ser treinado especificamente para uma tarefa, consegue realizar diversas funções (zero-shot ou few-shot).
+
+Exemplos de LLMs:
+
+GPT (OpenAI)
+
+BERT (Google)
+
+Claude (Anthropic)
+
+LLaMA (Meta)
+
+Resumo prático:
+Um LLM é um modelo de IA que entende e cria texto, usando aprendizado em larga escala para responder perguntas, gerar conteúdo ou realizar tarefas de linguagem natural.
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+RAG (Retrieval-Augmented Generation) é uma técnica que permite ao modelo de linguagem acessar informações externas (bases de conhecimento, documentos, FAQs, bancos de dados) para gerar respostas mais precisas e consistentes.
+
+Como funciona:
+
+O modelo recebe uma pergunta ou prompt.
+
+Busca em fontes externas documentos ou trechos relevantes.
+
+Usa essas informações para gerar a resposta final.
+
+Vantagem:
+
+Requer pouco esforço de desenvolvimento, porque você não precisa treinar ou ajustar o modelo, apenas conecta ele a uma base de dados ou sistema de recuperação.
+
+---------------------------------------------------------------------------------------------------------------------
+ROUGE é uma métrica de avaliação automática de texto gerado.
+
+É usada para comparar o texto gerado pelo modelo com textos de referência ou respostas corretas, medindo sobreposição de n-gramas, palavras ou frases.
+
+Muito utilizada em tarefas de resumo automático, tradução e geração de texto.
+
+---------------------------------------------------------------------------------------------------------------------
+
+Amazon SageMaker JumpStart oferece modelos de base (FM) de código aberto prontos para uso, incluindo modelos de linguagem, visão computacional e mais.
+
+Permite avaliar, ajustar ou implantar modelos rapidamente sem precisar treinar do zero.
+
+No caso da empresa: é possível usar um FM de linguagem para avaliar contratos e identificar conformidade com regras e políticas.
+
+SageMaker JumpStart é um recurso do SageMaker AI que fornece modelos de código aberto pré-treinados para você usar. O SageMaker JumpStart oferece FMs que podem ser usados para casos de uso de resumo.
+
+---------------------------------------------------------------------------------------------------------------------
+
+Você pode usar o IAM para controlar o acesso a recursos da AWS por meio de usuários, perfis e políticas. Você pode usar o IAM para controlar quais usuários ou serviços têm acesso ao Amazon Bedrock. Você pode usar o IAM para controlar quais ações o usuário ou serviço pode realizar. Você pode usar o IAM para proteger o acesso ao Amazon Bedrock.
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+AWS CloudTrail é o serviço da AWS responsável por registrar todas as chamadas de API feitas nos serviços da AWS.
+
+Ele fornece logs detalhados que incluem:
+
+Qual API foi chamada
+
+Quem (usuário ou função) fez a chamada
+
+Quando a chamada ocorreu
+
+Eventualmente detalhes adicionais sobre parâmetros e respostas
+
+Esses logs são essenciais para:
+
+Auditoria e conformidade
+
+Rastreamento de problemas de segurança
+
+Monitoramento de uso e operações
+
+É possível usar o CloudTrail para monitorar e registrar em log as chamadas de API em contas da AWS. Os registros do CloudTrail contêm o evento da API, o usuário que fez a chamada de API e a hora em que a chamada foi feita.
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
