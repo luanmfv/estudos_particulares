@@ -22,3 +22,13 @@ configs basicas para não esquecer do vs code, word wrap on(para haver quebra de
 windows + e abre o explorador de arquivos como atalho
 
 atalho para criar a base html é ! e enter
+
+<hr> cria uma linha e não tem fechamento hr significa horizontal rule
+
+h1 significa heading one (título 1) e vai até h6
+
+<h1> → título principal
+<h2> → subtítulo
+<h3> → sub-subtítulo
+<h4> → e assim por diante até
+<h6> → o menor nível de título
