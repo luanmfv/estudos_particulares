@@ -20,3 +20,5 @@ configs basicas para não esquecer do vs code, word wrap on(para haver quebra de
 -------------------------------------------------------------------------------------------------------------------
 
 windows + e abre o explorador de arquivos como atalho
+
+atalho para criar a base html é ! e enter
