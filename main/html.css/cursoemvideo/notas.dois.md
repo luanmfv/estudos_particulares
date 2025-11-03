@@ -66,6 +66,14 @@ para adicionar a função de icone digite link e selecione a opção favicon em 
 recomenda-se usar o icone com o nome de arquivo favicon.ico
 
 
+----------------------------------------------------------------------------------------------------------------------------
+
+semântica: muito mais valor o significado do que a forma, significado das palavras
+
+
+
+
+
 
 
 
