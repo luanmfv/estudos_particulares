@@ -68,7 +68,27 @@ recomenda-se usar o icone com o nome de arquivo favicon.ico
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-semântica: muito mais valor o significado do que a forma, significado das palavras
+semântica: muito mais valor o significado do que a forma, significado das palavras 
+
+se a tag ficar vermelha é porque está incorreto, comandos antigos que não funcionam mais
+
+mudar cor de letra, cor de fundo tamanho de letra é tudo com css
+
+e para animações é com js
+
+mecanismos de busca podem não te valorizar como google, por utilizar códigos antigos
+
+a tag B por exemplo, deixa em negrito, e não tem significado, mas tem forma que é o b
+
+a tag b significa bold que é negrito em ingles
+
+e também é possivel deixar igual ao negrito com o comando strong que é forte porém em semântica
+
+comando para colocar comando em alguma frase, selecione ela, apeerta control + shift + p, va em wrap with abbreviation, selecione o comando e dê enter
+
+para italico temos o comando i ou em  não semântica e semântica
+
+
 
 
 
