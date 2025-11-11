@@ -103,6 +103,54 @@ h1 foi uma linha criada e digitada olá mundo, caso abra em um servidor mostrari
 
 -----------------------------------------------------------------------
 
+pesquisar sobre seo
+
+SEO = Search Engine Optimization
+(Em português: Otimização para Mecanismos de Busca)
+
+É um conjunto de técnicas para fazer um site aparecer melhor no Google:
+
+Principais pontos:
+
+Palavras-chave certas no conteúdo
+
+Título e descrição bem escritos
+
+Site rápido e adaptado para celular
+
+Links de outros sites apontando para o seu (autoridade)
+
+Conteúdo útil e bem estruturado
+
+Objetivo: quando alguém pesquisar algo no Google, seu site aparecer nas primeiras posições — mais visitas, mais clientes.
+
+
+
+
+
+<p>Você também pode acessar o meu <a href="https://www.linkedin.com/in/luan-miguel-de-freitas-vieira-60a1a530b/" target="_blank">linkedin</a></p>
+
+rel="noopener" → bloqueia acesso à aba original (segurança)
+
+rel="noreferrer" → não envia o endereço de origem
+
+
+o ideal seria 
+
+<p>Você também pode acessar o meu <a href="https://www.linkedin.com/in/luan-miguel-de-freitas-vieira-60a1a530b/" target="_blank" rel="noopener noreferrer">linkedin</a></p>
+
+
+control + espaço escolhe uma das opções de arquivos na pasta
+
+rel="nofollow"   para seu mecanismo de busca não anexar interesses com esse link
+
+
+-----------------------------------------------------------------------
+
+
+
+
+
 
 
 
